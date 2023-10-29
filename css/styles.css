@@ -25,9 +25,26 @@ button{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 117;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
 }
 
+.menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-adress-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--SLATE, #434455);
+}
