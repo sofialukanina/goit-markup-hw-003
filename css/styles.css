@@ -1,3 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE, #434455);
+    background: var(--WHITE, #FFFFFF);
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button{
+    cursor: pointer;
+}
 
 .list{
     list-style-type: none;
@@ -7,13 +21,8 @@
     text-decoration: none;
 }
 
-button{
-    cursor: pointer;
-}
-
 .logo{
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -21,9 +30,8 @@ button{
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.logo-span{
+.accent{
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -32,7 +40,6 @@ button{
 }
 
 .menu-link{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -40,11 +47,157 @@ button{
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.main-adress-link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;;
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--IRIS, #4D5AE5);
+}
+
+.contacts-list-link{
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE, #434455);
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus{
+    color: var(--IRIS, #4D5AE5);
+}
+
+/* section 1 */
+.main-section{
+    background-color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.main-head{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--WHITE, #FFFFFF);
+}
+
+.button-action{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--IRIS, #4D5AE5);
+}
+
+.button-action :hover,
+.button-action :focus{
+    background-color: #404bbf
+}
+
+/* section 2 */
+.made-menu-item-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;   
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.made-menu-item-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* section 3 */
+
+.team{
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.team-name{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.team-menu-img{
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+}
+
+.team-menu-item-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.team-menu-item-text{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* section 4 */
+.portfolio-name{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.portfolio-menu-img{
+    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+.portfolio-menu-item-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.portfolio-menu-item-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.footer-accent{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--CLOUD, #F4F4FD);
 }
