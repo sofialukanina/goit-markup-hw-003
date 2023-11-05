@@ -49,11 +49,14 @@ button{
 
 .menu-link:hover,
 .menu-link:focus{
-    color: var(--IRIS, #4D5AE5);
+    color: #404bbf;
+}
+
+.contacts{
+    font-style: normal
 }
 
 .contacts-list-link{
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -113,7 +116,7 @@ button{
 /* section 3 */
 
 .team{
-    background: var(--CLOUD, #F4F4FD);
+    background-color: #FFFFFF;
 }
 
 .team-name{
