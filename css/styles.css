@@ -116,7 +116,7 @@ button{
 /* section 3 */
 
 .team{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-name{
@@ -146,6 +146,10 @@ button{
 }
 
 /* section 4 */
+.portfolio-menu{
+    background-color: #FFFFFF;
+}
+
 .portfolio-name{
     text-align: center;
     font-size: 36px;
