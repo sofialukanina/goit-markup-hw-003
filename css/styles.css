@@ -93,8 +93,8 @@ button{
     background-color: var(--IRIS, #4D5AE5);
 }
 
-.button-action :hover,
-.button-action :focus{
+.button-action:hover,
+.button-action:focus{
     background-color: #404BBF;
 }
 
@@ -117,6 +117,10 @@ button{
 
 .team{
     background-color: #F4F4FD;
+}
+
+.team-menu-item{
+    background-color: #FFFFFF;
 }
 
 .team-name{
