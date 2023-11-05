@@ -154,6 +154,10 @@ button{
     background-color: #FFFFFF;
 }
 
+.portfolio-menu-img{
+    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
 .portfolio-name{
     text-align: center;
     font-size: 36px;
