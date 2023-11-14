@@ -63,8 +63,7 @@ address{
 .menu{
     display: flex;
     gap: 40px;
-    padding-top: 24px; 
-    padding-bottom: 24px;
+    padding: 24px 0;
 } 
 
 .main-header{
@@ -112,6 +111,7 @@ address{
 .contacts-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contacts-list-item{
