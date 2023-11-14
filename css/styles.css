@@ -5,8 +5,12 @@ body{
     font-size: 18px;
 }
 
-ul {
-    list-style-type: none;
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 button{
@@ -21,6 +25,46 @@ button{
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+address{
+    font-style: normal;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: 40px;
+} 
+
+.main-header{
+    padding-top: 24px ;
+    padding-bottom: 24px;
+}
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -28,6 +72,7 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--NAVY-BLUE, #4d5ae5);
+    margin-right: 76px;
 }
 
 .accent{
@@ -56,6 +101,11 @@ button{
     font-style: normal
 }
 
+.contacts-list{
+    display: flex;
+    column-gap: 40px;
+}
+
 .contacts-list-link{
     font-size: 16px;
     font-weight: 400;
@@ -72,6 +122,8 @@ button{
 /* section 1 */
 .main-section{
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-head{
@@ -81,6 +133,10 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--WHITE, #FFFFFF);
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button-action{
@@ -91,6 +147,10 @@ button{
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--IRIS, #4D5AE5);
+    padding: 16px 32px;
+    margin: auto; 
+    display: block;
+
 }
 
 .button-action:hover,
@@ -99,28 +159,58 @@ button{
 }
 
 /* section 2 */
+.benefits{
+    padding-top: 118px;
+    padding-bottom: 120px;
+}
+
+.made-benefits{
+    font-size: 0;
+}
+
+.made-menu{
+    display: flex;
+    width: 264;
+}
+
+.made-menu-item{
+    column-gap: 24px;
+}
+
 .made-menu-item-name{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;   
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-bottom: 4px;
 }
 
 .made-menu-item-text{
+    width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 4px;
 }
 
 /* section 3 */
 
 .team{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-menu{
+    display: flex;
+    column-gap: 24px;
 }
 
 .team-menu-item{
     background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
 }
 
 .team-name{
@@ -131,6 +221,9 @@ button{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 
 .team-menu-item-name{
@@ -140,6 +233,8 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 32px;
+    margin-bottom: 4px;
 }
 
 .team-menu-item-text{
@@ -147,11 +242,22 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 4px;
+    margin-bottom: 32px;
 }
 
 /* section 4 */
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-menu{
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-name{
@@ -162,6 +268,13 @@ button{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-bottom: 72px;
+}
+
+.portfolio-menu-item{
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
 }
 
 .portfolio-menu-item-name{
@@ -170,17 +283,25 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 32px;
+    margin-bottom: 4px;
+    margin-left: 16px;
 }
 
 .portfolio-menu-item-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 4px;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 /* footer */
 .footer{
     background: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 101px;
+    padding-bottom: 100px;
 }
 
 .footer-logo{
@@ -190,6 +311,7 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 18px;
 }
 
 .footer-accent{
@@ -206,4 +328,5 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--CLOUD, #F4F4FD);
+    width: 264px;
 }
