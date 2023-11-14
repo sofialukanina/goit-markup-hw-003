@@ -45,6 +45,7 @@ address{
     font-style: normal;
 }
 
+/* header */
 .header-div{
     display: flex;
     justify-content: space-between;
@@ -57,12 +58,15 @@ address{
 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 } 
 
 .main-header{
     padding-top: 24px ;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo{
@@ -103,7 +107,7 @@ address{
 
 .contacts-list{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .contacts-list-link{
@@ -133,7 +137,7 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--WHITE, #FFFFFF);
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -150,7 +154,9 @@ address{
     padding: 16px 32px;
     margin: auto; 
     display: block;
-
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 .button-action:hover,
@@ -160,21 +166,21 @@ address{
 
 /* section 2 */
 .benefits{
-    padding-top: 118px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .made-benefits{
     font-size: 0;
+    
 }
 
 .made-menu{
     display: flex;
-    width: 264;
+    width: calc((100% - 72px)/4);
 }
 
 .made-menu-item{
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .made-menu-item-name{
@@ -183,7 +189,7 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;   
     color: var(--NAVY-BLUE, #2E2F42);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .made-menu-item-text{
@@ -191,7 +197,6 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 4px;
 }
 
 /* section 3 */
@@ -204,13 +209,14 @@ address{
 
 .team-menu{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-menu-item{
     background-color: #FFFFFF;
-    width: 264px;
+    width: calc((100% - 72px)/4);
     height: 380px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name{
@@ -226,6 +232,10 @@ address{
     margin-bottom: 72px;
 }
 
+.name-posicion{
+    padding: 32px 0;
+}
+
 .team-menu-item-name{
     text-align: center;
     font-size: 20px;
@@ -233,8 +243,8 @@ address{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
-    margin-top: 32px;
-    margin-bottom: 4px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-menu-item-text{
@@ -272,9 +282,13 @@ address{
 }
 
 .portfolio-menu-item{
-    width: 360px;
-    height: 420px;
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
+}
+
+.name-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-menu-item-name{
@@ -284,7 +298,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
     margin-top: 32px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     margin-left: 16px;
 }
 
@@ -292,7 +306,6 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 4px;
     margin-bottom: 32px;
     margin-left: 16px;
 }
@@ -300,8 +313,7 @@ address{
 /* footer */
 .footer{
     background: var(--NAVY-BLUE, #2E2F42);
-    padding-top: 101px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .footer-logo{
@@ -311,7 +323,8 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-accent{
