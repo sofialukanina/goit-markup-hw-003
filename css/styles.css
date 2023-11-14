@@ -114,6 +114,10 @@ address{
     gap: 40px;
 }
 
+.contacts-list-item{
+    padding: 24px 0;
+}
+
 .contacts-list-link{
     font-size: 16px;
     font-weight: 400;
@@ -174,7 +178,7 @@ address{
     padding: 120px 0;
 }
 
-.visually-hidden{
+.name-benefits{
     visibility: hidden;
 }
 
@@ -346,4 +350,5 @@ address{
     letter-spacing: 0.02em;
     color: var(--CLOUD, #F4F4FD);
     width: 264px;
+    height: 45px;
 }
