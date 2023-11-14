@@ -56,6 +56,10 @@ address{
     align-items: center;
 }
 
+.menu-item{
+    padding: 24px 0;
+}
+
 .menu{
     display: flex;
     gap: 40px;
@@ -157,6 +161,7 @@ address{
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    border: none;
 }
 
 .button-action:hover,
@@ -169,18 +174,17 @@ address{
     padding: 120px 0;
 }
 
-.made-benefits{
-    font-size: 0;
-    
+.made-benefits
+.visually-hidden{   
 }
 
 .made-menu{
     display: flex;
-    width: calc((100% - 72px)/4);
+    gap: 24px;
 }
 
 .made-menu-item{
-    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .made-menu-item-name{
