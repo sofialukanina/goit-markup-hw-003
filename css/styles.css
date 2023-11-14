@@ -97,6 +97,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -120,6 +121,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .contacts-list-link:hover,
