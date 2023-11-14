@@ -174,8 +174,8 @@ address{
     padding: 120px 0;
 }
 
-.made-benefits
-.visually-hidden{   
+.visually-hidden{
+    visibility: hidden;
 }
 
 .made-menu{
